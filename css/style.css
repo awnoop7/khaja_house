@@ -52,6 +52,7 @@
 .rightnav {
     width: 50%;
     text-align: right;
+    padding:0 23px ; 
 }
 
 #search {
@@ -79,7 +80,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 50%;
     margin: auto; 
-    height: 60%;
+    height: 55%;
 }
 .firstHalf{
     width: 80%;
@@ -94,7 +95,7 @@
 .SecondHalf img{
     width: 90%;
     padding: 90px;
-    /* border: 4px solid rgb(110, 185, 24); */
+    /* border: 4px solid rgb(151, 160, 141); */
     border-radius: 40%;
 }
 .text-big{
@@ -104,5 +105,35 @@
 .text-small{
     font-size: 18px;
     margin: 10px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}
 
+.button{
+    padding: 6px 10px;
+    vertical-align: middle;
+}
+
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+   
+}
+.coffee{
+    height: 200px;
+    width: 200px;
+}
+
+.paragraph{
+    padding:0 65px ;
 }
