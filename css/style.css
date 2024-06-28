@@ -47,6 +47,7 @@
 .nav-list a:hover {
     text-decoration: none;
     color: rgb(207, 32, 178);
+    font-size: 30px;
 }
 
 .rightnav {
@@ -69,7 +70,7 @@
 }
 
 .firstSection{
-    height: 100vh;
+    height: 90vh;
 }
 
 .box-main{
@@ -80,7 +81,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     max-width: 50%;
     margin: auto; 
-    height: 55%;
+    height: 90%;
 }
 .firstHalf{
     width: 80%;
@@ -127,13 +128,12 @@
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
-   
+    
 }
+
 .coffee{
     height: 200px;
     width: 200px;
-}
-
-.paragraph{
-    padding:0 65px ;
+    border-radius: 40px;
+    margin: 50px;
 }
