@@ -10,54 +10,104 @@
 
 <body>
     <nav class="navbar background">
-        <div class="logo"><img src="img/eb4f749fd1c95eefe5cccbcd325d8299.jpg" alt="logo"></div>
+        <div class="logo"><img src="img/log.jpg" alt="logo"></div>
         <ul class="nav-list">
             <li><a href="#home"> Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#recipes"> Recipes </a></li>
-            <li><a href="#Gallary">Gallary</a></li>
-            <li><a href="#Contact">Contact</a></li>
-            <li><a href="#blog">Blog</a></li>
-        
+            <li><a href="#gallary">Gallery</a></li>
+            <!-- <li><a href="#recipes"> Recipes </a></li> -->
+            <!-- <li><a href="#blog">Blog</a></li> -->
+            <li><a href="#Contact-us">Contact-us</a></li>
+            <li><a href="#About">About</a></li>
         </ul>
+        
         <div class="rightnav">
             <input type="text" name="search" id="search">
             <button class="btn">search</button >
         </div>
     </nav>
 
-    <section class="background firstSection">
-        <div class="box-main">
-            <div class="firstHalf">
-                <p class="text-big">Our khaja-House</p>
-                <p class="text-small">Welcome to our khaja-House. Here we provide Fresh,Delicious meal to reach your optimum health and fitness </p>
-                    <div class="button">
-                        <button class="btn"> Today Menu</button>
-                         <button class="btn">Home delivery</button>
-                    </div>
+    <div id="home">
+        <section class="background firstSection">
+            <div class="box-main">
+                <div class="firstHalf">
+                    <p class="text-big">Our khaja-House</p>
+                    <h1 class="text-small">Welcome to our khaja-House. Here we provide Fresh,Delicious meal to reach your optimum health and fitness </h1>
+                        <div class="button">
+                            <button id="btn"> Today Menu</button>
+                             <button id="btn">Home delivery</button>
+                        </div>
+                </div>
+    
+                <div class="SecondHalf"> 
+                    <img src="img/log.jpg" alt="">
+                </div>
             </div>
-
-            <div class="SecondHalf"> 
-                <img src="img/eb4f749fd1c95eefe5cccbcd325d8299.jpg" alt="">
+        </section>
+    </div>
+    
+    <section class="gallery-section">
+            <h1 id="gallary"> Gallery</h1>
+            <div class="g-container">
+               <img src="/img/gallery1.jpg" alt="">
+               <img src="/img/gallery4.jpg" alt="">
+               <img src="/img/gallery3.jpg" alt="">
             </div>
-        </div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque repellendus ab minus itaque asperiores veniam, porro reprehenderit fugit, eos, enim perferendis aperiam cum. Nesciunt saepe delectus repellat quaerat,lo</p>
     </section>
 
-    <section class="secRight">
-     <div class="paragraph">
-          <p class="sectionTag text-big ">To feed your huger</p>
-          <p class="sectionSubTag text-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, incidunt aut repudiandae commodi iure in vel eaque corporis fugiat. Blanditiis, itaque? Incidunt ipsa modi praesentium illum quia neque sequi sunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor voluptate blanditiis impedit nisi libero delectus officia magni quisquam iure ipsam distinctio at, soluta illum consequuntur consequatur pariatur dicta molestiae, adipisci eaque eligendi?
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus debitis laborum doloremque vel provident, aspernatur quam minus, voluptate sunt iure eveniet possimus iusto odit totam animi quasi illum ipsa facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, odit eligendi! Sit incidunt, libero ea, alias dolorem inventore hic ipsum, aliquam laborum veritatis quisquam quas necessitatibus. Nihil, facere? Praesentium, culpa.
-          </p>
+
+    <section class="Contact-section">
+        <h1 id="Contact-us">Contact-Us</h1>
+        <h3>Location and Hours</h3>
+        <p>
+            
+            Kathmandu, Baneshwor
+            <br>
+            Ph:01-03......
+            <br>
+            Monday thru Friday: 7 A.M. to 8 P.M.  | Breakfast til 11 A.M.
+            <br>
+            
+            Saturday: 8 A.M. to 8 P.M. |  Breakfast til 1 P.M.
+            <br>
+            
+            Sunday: 8 A.M. to 7 P.M.  Breakfast til 1 P.M</p>
+
+        <div class="contact-container">
+            <p>Request? Comment? Feedback? Email us today!</p>
+            <label for="name">First name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+
+            <label for="name">Last name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+
+            <label for="name">Phone number</label>
+            <input type="number" name="name" id="name" placeholder="Phone number">
+
+            <label for="name">Email</label>
+            <input type="email" name="Email address" id="name" placeholder="xyz@gmail.com">
+
+            <label for="name">Message us</label>
+            <input type="name" name="Email address" id="name" placeholder="Your message">
+
+            <div class="contact-button">
+                <button id="c_btn"> Send</button>  
+            </div>
+       
         </div>
-       <div class="thumnail">
-        <img src="img/pexels-chevanon-312418.jpg " alt="coffee capachino" class="coffee">
-       </div>
+        
+
+        
+        
     </section>
+    
+   
+   
+   
 
    
 
 
 </body>
-
+<script src="script.js"></script>
 </html>

@@ -1,0 +1,41 @@
+body{
+    background-color: gray; 
+    margin: 0px;
+    padding: 0px;
+
+}
+.feature-menu-box{
+    display: flex;
+    
+}
+
+.feature-menu-box img{
+    max-width: 185px;
+    width: 100%;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.feature-menu-box img:hover{
+    transform: scale(1.1);
+}
+
+
+.foodname{
+
+    text-align: start;
+    justify-content: space-between;
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading{
+   text-align: center;
+   font-size: 50px;
+   background-color: rgb(184, 145, 145);
+   padding: 10px;
+   margin-block-start: 0px;
+}
